@@ -22,5 +22,5 @@ https://hvhwan-debug.github.io/TTBB/
 ```
 
 ## Cần cập nhật thêm
-- Số điện thoại liên hệ chính xác (đang dùng số trong hồ sơ pháp lý: 0913 498 945)
+- Số điện thoại liên hệ chính xác (đang dùng: +84 913 498 459)
 - Logo và hình ảnh thật của các hoạt động (hiện đang dùng minh họa)
