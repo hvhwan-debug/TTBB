@@ -1,59 +1,62 @@
-# Nội dung hỗ trợ hồ sơ đăng ký Google Ad Grants
+# Supporting content for the Google Ad Grants application
 
-Tài liệu tham khảo nội bộ — không hiển thị trên website. Dùng khi điền hồ sơ đăng ký
-Google Ad Grants (qua Google for Nonprofits) hoặc thiết lập chiến dịch Google Ads.
+Internal reference — not shown on the website. Use it when filling in the Google Ad Grants
+application (via Google for Nonprofits) or setting up Google Ads campaigns.
 
-## 1. Giới thiệu tổ chức (Mission statement)
+## 1. Organisation overview (Mission statement)
 
-Quỹ "Vì những trái tim bé bỏng" là tổ chức từ thiện phi lợi nhuận, phi chính phủ tại
-tỉnh QN, được cấp Giấy phép thành lập và công nhận Điều lệ theo Quyết định số
-315/UBND. Quỹ hoạt động nhằm hỗ trợ chương trình mổ tim bẩm sinh cho trẻ em nghèo
-trên địa bàn tỉnh QN, thông qua việc phối hợp với các cơ sở y tế, tổ chức nhân đạo
-trong và ngoài nước để kết nối nguồn lực đúng mục đích, đúng đối tượng.
+For Little Hearts Fund (Vietnamese: *Quỹ “Vì những trái tim bé bỏng”*) is a non-profit,
+non-governmental charitable organisation in QN province, Vietnam. Its establishment licence
+and charter were approved under Decision No. 315/UBND. The Fund supports congenital heart
+surgery for disadvantaged children across QN province, working with hospitals and
+humanitarian organisations in Vietnam and abroad to channel resources to the right purpose
+and the right beneficiaries.
 
-## 2. Đối tượng hưởng lợi
+## 2. Beneficiaries
 
-Trẻ em có hoàn cảnh khó khăn tại tỉnh QN mắc dị tật tim bẩm sinh, cùng gia đình các
-em — những người cần được kết nối với dịch vụ khám sàng lọc và phẫu thuật tim kịp
-thời.
+Children from disadvantaged families in QN province who are born with congenital heart
+defects, together with their families — people who need to be connected with timely heart
+screening and surgery.
 
-## 3. Chủ đề chiến dịch quảng cáo (Campaign themes)
+## 3. Campaign themes
 
-Gợi ý các nhóm quảng cáo (ad groups) theo chủ đề, mỗi nhóm nên có landing page tương ứng:
+Suggested ad groups by theme; each group should have a matching landing page:
 
-| Chủ đề | Trang đích | Từ khóa gợi ý |
+| Theme | Landing page | Suggested keywords |
 |---|---|---|
-| Giới thiệu tổ chức | `gioi-thieu.html` | quỹ từ thiện Quảng Ngãi, quỹ tim bẩm sinh, tổ chức phi lợi nhuận QN |
-| Chương trình mổ tim | `chuong-trinh.html` | mổ tim bẩm sinh trẻ em, hỗ trợ phẫu thuật tim, tim bẩm sinh trẻ em nghèo |
-| Các hoạt động | `hoat-dong.html` | khám sàng lọc tim bẩm sinh, chương trình khám tim miễn phí |
-| Minh bạch | `minh-bach.html` | quỹ từ thiện minh bạch, báo cáo tài chính quỹ xã hội |
-| Liên hệ | `lien-he.html` | liên hệ quỹ từ thiện Quảng Ngãi |
+| About the organisation | `gioi-thieu.html` | children's heart charity Vietnam, congenital heart fund, non-profit Quang Ngai |
+| Heart surgery programme | `chuong-trinh.html` | congenital heart surgery for children, sponsor a child's heart surgery, help children with heart disease |
+| Activities | `hoat-dong.html` | congenital heart screening, free heart check-up for children |
+| Transparency | `minh-bach.html` | transparent charity Vietnam, charity financial report |
+| Contact | `lien-he.html` | contact children's heart charity Vietnam, donate to child heart surgery |
 
-## 4. Mẫu quảng cáo văn bản (Sample text ad)
+> The site is now in English, so English keywords match the landing pages best. If you also
+> want to reach Vietnamese searchers, consider a separate Vietnamese campaign later.
 
-**Tiêu đề 1:** Quỹ Vì Những Trái Tim Bé Bỏng
-**Tiêu đề 2:** Hỗ Trợ Mổ Tim Bẩm Sinh Trẻ Em
-**Tiêu đề 3:** Tổ Chức Phi Lợi Nhuận Tại QN
-**Mô tả:** Quỹ từ thiện phi lợi nhuận hỗ trợ chương trình mổ tim bẩm sinh cho trẻ em
-nghèo tại tỉnh QN. Tìm hiểu về tổ chức, chương trình và hoạt động của Quỹ.
+## 4. Sample text ad
 
-## 5. Yêu cầu duy trì tài khoản Google Ad Grants (lưu ý khi vận hành)
+**Headline 1:** For Little Hearts Fund
+**Headline 2:** Heart Surgery for Children
+**Headline 3:** Non-Profit Charity in Vietnam
+**Description:** A non-profit charity supporting congenital heart surgery for disadvantaged
+children in QN province, Vietnam. Learn about our organisation, programme and activities.
 
-- Tỷ lệ nhấp (CTR) trung bình tài khoản phải đạt tối thiểu 5%/tháng.
-- Mỗi chiến dịch cần ít nhất 2 nhóm quảng cáo, mỗi nhóm ít nhất 2 mẫu quảng cáo.
-- Từ khóa một từ (trừ một số ngoại lệ) và điểm chất lượng quá thấp không được phép.
-- Phải bật tính năng theo dõi chuyển đổi (conversion tracking) hoặc liên kết Google
-  Analytics — đây là lý do trang web đã được gắn sẵn đoạn mã Google Analytics (GA4),
-  chỉ cần thay Measurement ID thật vào để kích hoạt.
-- Ngân sách tối đa 2 USD/từ khóa với chiến dịch loại "Từ khóa được nhắm mục tiêu thủ
-  công" (Maximize Conversions không bị giới hạn này).
+## 5. Google Ad Grants account requirements (while running)
 
-## 6. Việc cần chuẩn bị thêm trước khi nộp hồ sơ
+- Account-wide average click-through rate (CTR) must stay at or above 5% each month.
+- Each campaign needs at least 2 ad groups, each with at least 2 ads.
+- Single-word keywords (with a few exceptions) and very low Quality Score keywords are not allowed.
+- Conversion tracking must be enabled or Google Analytics linked — this is why the site already
+  includes the Google Analytics (GA4) snippet; just insert the real Measurement ID to activate it.
+- Maximum bid of USD 2 per keyword for "Manual CPC" campaigns (Maximize Conversions campaigns
+  are not subject to this limit).
 
-- [ ] Đăng ký tài khoản Google for Nonprofits (cần xác thực tư cách pháp nhân phi lợi
-      nhuận qua đối tác xác thực tại Việt Nam, ví dụ TechSoup Việt Nam)
-- [ ] Thay Measurement ID thật vào đoạn mã Google Analytics trong tất cả các trang
-      (tìm `G-XXXXXXXXXX` trong mỗi file `.html`)
-- [ ] Xác nhận địa chỉ email `lienhe@vinhungtraitimbebong.info` để kích hoạt form
-      liên hệ (FormSubmit sẽ gửi email xác nhận một lần duy nhất khi có người gửi
-      form đầu tiên — cần bấm xác nhận trong email đó)
+## 6. Still to prepare before applying
+
+- [ ] Register a Google for Nonprofits account (non-profit status must be verified through a
+      validation partner in Vietnam, e.g. TechSoup Vietnam)
+- [ ] Insert the real Measurement ID into the Google Analytics snippet on every page
+      (search for `G-XXXXXXXXXX` in each `.html` file)
+- [ ] Confirm the email address `lienhe@vinhungtraitimbebong.info` to activate the contact form
+      (FormSubmit sends a one-time confirmation email when the first message is submitted —
+      click the confirmation link in that email)

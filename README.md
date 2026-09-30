@@ -1,43 +1,45 @@
-# Quỹ "Vì những trái tim bé bỏng" — Website
+# For Little Hearts Fund — Website
 
-Website giới thiệu Quỹ "Vì những trái tim bé bỏng" (QN), thành lập theo Quyết định số 315/UBND.
+Website of the For Little Hearts Fund (Vietnamese: *Quỹ “Vì những trái tim bé bỏng”*), QN, Vietnam, established under Decision No. 315/UBND.
 
-## Cấu trúc
-- `index.html` — trang chủ
-- `gioi-thieu.html` — trang Giới thiệu
-- `chuong-trinh.html` — trang Chương trình
-- `hoat-dong.html` — trang Các hoạt động
-- `minh-bach.html` — trang Minh bạch
-- `lien-he.html` — trang Liên hệ
-- `404.html` — trang lỗi 404 tùy chỉnh (GitHub Pages tự dùng khi không tìm thấy trang)
-- `robots.txt`, `sitemap.xml` — hỗ trợ Google index trang và Google Ad Grants
-- `css/style.css` — toàn bộ style
-- `js/main.js` — menu mobile (đóng khi bấm ra ngoài / nhấn Esc) + năm hiện tại ở footer
+## Structure
+- `index.html` — home page
+- `gioi-thieu.html` — About
+- `chuong-trinh.html` — Programme
+- `hoat-dong.html` — Activities
+- `minh-bach.html` — Transparency
+- `lien-he.html` — Contact
+- `404.html` — custom 404 page (GitHub Pages uses it automatically when a page is not found)
+- `robots.txt`, `sitemap.xml` — help Google index the site and support Google Ad Grants
+- `css/style.css` — all styles
+- `js/main.js` — mobile menu (closes on outside click / Esc) + current year in the footer
 
-## Đã bổ sung
-- Thẻ `canonical`, Open Graph, Twitter Card cho từng trang (hỗ trợ chia sẻ mạng xã hội và SEO)
-- `aria-current="page"` + trạng thái active trên menu để biết đang ở trang nào
-- `robots.txt` + `sitemap.xml` liệt kê đủ 6 trang
-- Trang 404 tùy chỉnh
-- Đóng menu mobile khi bấm ra ngoài hoặc nhấn phím Esc
-- Form liên hệ trên trang Liên hệ, gửi email thật qua FormSubmit.co (miễn phí, không cần tài khoản — chỉ cần bấm xác nhận email một lần duy nhất khi nhận tin nhắn đầu tiên)
-- Đoạn mã Google Analytics (GA4) đã gắn sẵn ở mọi trang — cần thay `G-XXXXXXXXXX` bằng Measurement ID thật để kích hoạt
-- `docs/google-ad-grants.md` — nội dung tham khảo để chuẩn bị hồ sơ đăng ký Google Ad Grants (mission statement, chủ đề chiến dịch, mẫu quảng cáo, checklist)
+File names are kept unchanged so existing links, the sitemap and any ads keep working.
 
-## Chạy thử cục bộ
-Chỉ cần mở `index.html` bằng trình duyệt, hoặc dùng một static server bất kỳ, ví dụ:
+## Features
+- `canonical`, Open Graph and Twitter Card tags on every page (social sharing and SEO)
+- `aria-current="page"` + active menu state so visitors know which page they are on
+- `robots.txt` + `sitemap.xml` listing all 6 pages
+- Custom 404 page
+- Mobile menu closes on outside click or the Esc key
+- Contact form on the Contact page, sending real email through FormSubmit.co (free, no account needed — just confirm the email once when the first message arrives)
+- Google Analytics (GA4) snippet on every page — replace `G-XXXXXXXXXX` with the real Measurement ID to activate
+- `docs/google-ad-grants.md` — reference content for the Google Ad Grants application (mission statement, campaign themes, sample ads, checklist)
+
+## Run locally
+Open `index.html` in a browser, or use any static server, for example:
 
 ```
 python3 -m http.server 8080
 ```
 
-## Triển khai qua GitHub Pages
-Vào **Settings → Pages** của repo này, chọn nhánh `main`, thư mục `/ (root)`, rồi Save. Sau vài phút trang sẽ chạy tại:
+## Deploy with GitHub Pages
+Go to **Settings → Pages** in this repository, choose branch `main`, folder `/ (root)`, then Save. After a few minutes the site runs at:
 
 ```
 https://hvhwan-debug.github.io/TTBB/
 ```
 
-## Cần cập nhật thêm
-- Số điện thoại liên hệ chính xác (đang dùng: +84 913 498 459)
-- Logo và hình ảnh thật của các hoạt động (hiện đang dùng minh họa)
+## Still to update
+- Confirm the correct contact phone number (currently: +84 913 498 459)
+- Real logo and photos of activities (illustrations are used for now)
