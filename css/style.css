@@ -169,6 +169,7 @@ a { color: var(--wine); }
 .primary-nav .btn-accent {
   text-align: center;
 }
+.primary-nav a.active { color: var(--wine); }
 
 /* ---------- Hero ---------- */
 .hero { padding: 56px 0 64px; }

@@ -3,7 +3,12 @@
 Website giới thiệu Quỹ "Vì những trái tim bé bỏng" (Quảng Ngãi), thành lập theo Quyết định số 315/UBND của UBND tỉnh Quảng Ngãi.
 
 ## Cấu trúc
-- `index.html` — trang chính
+- `index.html` — trang chủ
+- `gioi-thieu.html` — trang Giới thiệu
+- `chuong-trinh.html` — trang Chương trình
+- `hoat-dong.html` — trang Các hoạt động
+- `minh-bach.html` — trang Minh bạch
+- `lien-he.html` — trang Liên hệ
 - `css/style.css` — toàn bộ style
 - `js/main.js` — menu mobile + năm hiện tại ở footer
 
