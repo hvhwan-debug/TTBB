@@ -1,6 +1,6 @@
 # Quỹ "Vì những trái tim bé bỏng" — Website
 
-Website giới thiệu Quỹ "Vì những trái tim bé bỏng" (Quảng Ngãi), thành lập theo Quyết định số 315/UBND.
+Website giới thiệu Quỹ "Vì những trái tim bé bỏng" (QN), thành lập theo Quyết định số 315/UBND.
 
 ## Cấu trúc
 - `index.html` — trang chủ
