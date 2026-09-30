@@ -88,12 +88,12 @@ a { color: var(--wine); }
   color: var(--ink);
 }
 .btn-ghost:hover { border-color: var(--wine); color: var(--wine); }
-.btn-donate {
+.btn-accent {
   background: var(--gold);
   color: var(--ink);
   padding: 10px 20px;
 }
-.btn-donate:hover { background: var(--gold-soft); }
+.btn-accent:hover { background: var(--gold-soft); }
 
 /* ---------- Header ---------- */
 .site-header {
@@ -166,7 +166,7 @@ a { color: var(--wine); }
   font-weight: 500;
 }
 .primary-nav a:last-child { border-bottom: none; margin-top: 8px; }
-.primary-nav .btn-donate {
+.primary-nav .btn-accent {
   text-align: center;
 }
 
