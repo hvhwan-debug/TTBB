@@ -290,6 +290,42 @@ h2.center, p.section-intro.center { max-width: 60ch; }
 .c-item h3 { margin-bottom: 6px; }
 .c-item p { margin: 0 auto; }
 
+.contact-form-wrap {
+  max-width: 560px;
+  margin: 48px auto 0;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.contact-form label {
+  font-weight: 600;
+  font-size: 0.92rem;
+  margin-top: 10px;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  padding: 11px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--ink);
+  resize: vertical;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid var(--gold);
+  outline-offset: 1px;
+}
+.contact-form button {
+  margin-top: 18px;
+  align-self: center;
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: var(--wine-dark);

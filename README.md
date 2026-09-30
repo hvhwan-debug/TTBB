@@ -20,6 +20,9 @@ Website giới thiệu Quỹ "Vì những trái tim bé bỏng" (QN), thành l�
 - `robots.txt` + `sitemap.xml` liệt kê đủ 6 trang
 - Trang 404 tùy chỉnh
 - Đóng menu mobile khi bấm ra ngoài hoặc nhấn phím Esc
+- Form liên hệ trên trang Liên hệ, gửi email thật qua FormSubmit.co (miễn phí, không cần tài khoản — chỉ cần bấm xác nhận email một lần duy nhất khi nhận tin nhắn đầu tiên)
+- Đoạn mã Google Analytics (GA4) đã gắn sẵn ở mọi trang — cần thay `G-XXXXXXXXXX` bằng Measurement ID thật để kích hoạt
+- `docs/google-ad-grants.md` — nội dung tham khảo để chuẩn bị hồ sơ đăng ký Google Ad Grants (mission statement, chủ đề chiến dịch, mẫu quảng cáo, checklist)
 
 ## Chạy thử cục bộ
 Chỉ cần mở `index.html` bằng trình duyệt, hoặc dùng một static server bất kỳ, ví dụ:
